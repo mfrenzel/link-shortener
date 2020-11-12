@@ -1,0 +1,13 @@
+{% extends "base.html.twig" %}
+
+{% block body %}
+    <h1>Link</h1>
+    <ul>
+        <li>
+            Short-URL: <a href="{{ shortened_url }}">{{ shortened_url }}</a>
+        </li>
+        <li>
+            URL:  <a href="{{ url }}">{{ url }}</a>
+        </li>
+    </ul>
+{% endblock %}
